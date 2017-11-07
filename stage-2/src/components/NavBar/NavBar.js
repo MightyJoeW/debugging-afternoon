@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-import Logo from '../../images/dev-mountain-logo.png'
+import Logo from '../../images/dev-mountain-logo.png';
+import { Link } from 'react-router-dom';
 
 class NavBar extends Component {
 
@@ -9,7 +10,7 @@ class NavBar extends Component {
             <div>
                 <div className="navbar-container">
                     <div className="logo-container">
-                        <Link to="/"><img className="logo-image" src={Logo} alt="" /></Link>
+                        <Link to="/"><img className="logo-image" src={Logo} alt="Logo" /></Link>
                     </div>
 
                     <div className="navbar-links-container">
